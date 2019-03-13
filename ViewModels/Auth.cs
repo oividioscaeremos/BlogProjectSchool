@@ -8,6 +8,7 @@ namespace SimpleBlog.ViewModels
 {
     public class AuthLogin
     {
+<<<<<<< HEAD
         public string Test { get; set; }
 
         [Required]
@@ -16,6 +17,10 @@ namespace SimpleBlog.ViewModels
 
         [Required]
         [DataType(DataType.Password)]  // this is an annotation
+=======
+        public string userName { get; set; }
+        [DataType(DataType.Password)]
+>>>>>>> 0a1d628badccb48373ce9a4bc4af277aa194fdf5
         public string password { get; set; }
     }
 }

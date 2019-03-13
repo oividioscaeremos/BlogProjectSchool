@@ -4,6 +4,7 @@
 }
 <p>This is the Login View!</p>
 
+<<<<<<< HEAD
 <p>Our Test's value is @Model.Test</p>
 
 @using (Html.BeginForm())
@@ -16,8 +17,23 @@
     <div>
         @Html.LabelFor(x => x.password)
         @Html.TextBoxFor(x => x.password)
+=======
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(x => x.userName)
+        @Html.EditorFor(x => x.userName)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.password)
+        @Html.EditorFor(x => x.password)
+>>>>>>> 0a1d628badccb48373ce9a4bc4af277aa194fdf5
     </div>
     <div>
         <input type="submit" value="Login" />
     </div>
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a1d628badccb48373ce9a4bc4af277aa194fdf5

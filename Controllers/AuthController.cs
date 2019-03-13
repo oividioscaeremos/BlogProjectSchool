@@ -35,5 +35,10 @@ namespace SimpleBlog.Controllers
             formData.Test = "Second ValVal.";
             return Content("This form is valid.");
         }
+        [HttpPost]
+        public ActionResult Login(AuthLogin formData)
+        {
+            return Content("Hi, "+ formData.userName);
+        }
     }
 }

@@ -106,7 +106,10 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\Auth.cs" />
+<<<<<<< HEAD
     <Compile Include="ViewModels\Register.cs" />
+=======
+>>>>>>> 0a1d628badccb48373ce9a4bc4af277aa194fdf5
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
