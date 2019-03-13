@@ -1,0 +1,27 @@
+﻿@model SimpleBlog.ViewModels.RegisterRegister
+
+@{
+    ViewBag.Title = "Registration Page";
+}
+
+<p>This is the Login View!</p>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    <div>
+        @Html.LabelFor(x => x.name)
+        @Html.TextBoxFor(x => x.name, new { @placeholder = "Name" })
+    </div>
+    <div>
+        @Html.LabelFor(x => x.surname)
+        @Html.TextBoxFor(x => x.surname)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.email)
+        @Html.TextBoxFor(x => x.email)
+    </div>
+    <div>
+        <input type="submit" value="Register" />
+    </div>
+}
